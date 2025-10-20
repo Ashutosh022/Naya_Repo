@@ -16,4 +16,4 @@ folder-path>aws s3 sync . s3://bucketname
 
 folder-path>aws s3 sync s3://bucketname . 
 
-
+This the the 2nd version of same file 
