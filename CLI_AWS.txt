@@ -1,0 +1,19 @@
+AWS CLI Usefull commands;
+ 
+1.to configure AWS CLI first time >aws configure
+ enter access key id  &  secret access key 
+
+2.to list available buckets >aws s3 ls
+
+3.to create new bucket >aws s3 mb s3://bucketname --region us-east-1  
+
+4.to delete the existing bucket >aws s3 rb s3://bucketname --region us-east-1
+
+5.to sync any folder with s3 bucket - 
+folder-path>aws s3 sync . s3://bucketname
+
+6.to get back  all the content of a local  folder from s3 bucket  after accidentaly being deleted -
+
+folder-path>aws s3 sync s3://bucketname . 
+
+
